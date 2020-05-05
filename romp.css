@@ -95,20 +95,3 @@ a:active{
         left: 0;
     }
 }
-@media (max-width: 720px){
-    .checkbtn{
-        display: block;
-        margin-right: 10px;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    label.name{
-        color:ghostwhite;
-        font-size: 30px;
-        line-height: 90px;
-        padding: 0px 30px;
-        font-weight: bold;
-        font-style: oblique;
-    }
-}
