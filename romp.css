@@ -10,6 +10,9 @@ nav{
     height: 90px;
     width: 100%;
 }
+body{
+    background-color:ghostwhite;
+}
 label.name{
     color:ghostwhite;
     font-size: 50px;
@@ -35,7 +38,7 @@ nav ul li a{
     border-radius: 5px ;
 }
 a:hover{
-    background: black;
+    background:wheat;
     transition: .5s;
 }
 a:active{
@@ -64,6 +67,7 @@ a:active{
 
     }
 }
+
 @media (max-width: 858px) {
     .checkbtn{
         display: block;
