@@ -34,7 +34,10 @@ section{
 
     margin-left: 20px;
 }
-
+footer{
+    background-color:pink ;
+    text-align: center;
+}
 @media (max-width:991px){
     .contain{
         flex-direction: column;
