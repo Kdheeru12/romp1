@@ -5,6 +5,32 @@
     list-style: none;
     box-sizing: border-box;
 }
+.romp{
+    position: relative;
+}
+.romp label{
+    position: absolute;
+    color: ghostwhite;
+    font-size: 3.5em;
+    margin: 15px;
+    padding-left: 20px;
+}
+.romp label:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 1.5px orange;
+}
+.romp label:nth-child(2){
+    color: orange;
+    animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate{
+    0%,100%{
+        clip-path: polygon(1% 41%, 9% 44%, 20% 48%, 29% 53%, 38% 56%, 44% 57%, 54% 58%, 64% 57%, 72% 53%, 80% 49%, 87% 44%, 93% 39%, 98% 33%, 100% 29%, 99% 99%, 0% 98%);
+    }
+    50%{
+        clip-path: polygon(1% 28%, 11% 34%, 21% 40%, 32% 46%, 43% 50%, 57% 55%, 68% 60%, 80% 59%, 89% 55%, 94% 49%, 99% 44%, 99% 99%, 0% 98%);
+    }
+}
 nav{
     background:purple;
     height: 90px;
@@ -27,7 +53,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    line-height: 90px;
+    line-height: 70px;
     margin:0 5px;
 }
 nav ul li a{
